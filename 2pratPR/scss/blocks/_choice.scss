@@ -1,0 +1,27 @@
+.choice{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+margin: 0 auto 50px auto;
+gap: 15px 40px;
+width: 1110px;
+margin-top: 50px;
+}
+.choice__item_Bold{
+font-size: 30px;
+}
+.choice__item_dim{
+margin: -5px 0px;
+font-size: 18px;
+color: rgba(181, 181, 189, 1);
+}
+.choice__item_default{
+font-size: 18px;
+line-height: 1.5;
+color: rgba(133, 133, 155, 1);
+
+}
+.choice__item_button{
+font-size: 20px;
+color: royalblue;
+text-decoration: none;
+}

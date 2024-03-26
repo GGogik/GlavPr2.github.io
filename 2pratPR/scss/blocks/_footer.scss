@@ -1,0 +1,31 @@
+.footer{
+width: 1440px;
+height: 80px;
+background-color: rgba(76, 88, 102, 1);
+margin: auto;
+}
+.footer__grid{
+padding: 30px;
+display: grid;
+width: 1110px;
+margin: auto;
+grid-template-columns: 1fr 60px 60px 60px 60px;
+}
+.footer__item1{
+grid-column: 1/2;
+display: flex;
+align-items: center;
+
+}
+.footer__item2{
+grid-column: 2/3;
+}
+.footer__item3{
+grid-column: 3/4;
+}
+.footer__item4{
+grid-column: 4/5;
+}
+.footer__item5{
+grid-column: 5/6;
+}

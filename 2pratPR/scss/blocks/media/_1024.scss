@@ -1,0 +1,124 @@
+@media (width: 1024px){
+body{
+width: 1024px;
+}
+.shadow{
+width: 1024px;
+margin: auto;
+margin-bottom: 20px;
+
+} 
+.header{
+width: 824px;
+margin: auto;
+margin-top: 30px;
+}
+.catalog{
+width: 824px;
+}
+.catalog-item1{
+font-size: 50px;
+grid-column: 1/2;
+grid-row: 2/3;
+}
+.catalog-img{
+width: 351px;
+height: 430px;
+}
+// -------------------------
+.Grey-backGround{
+width: 1024px;
+height: 800px;
+padding-top: -60px;
+}
+.chart{
+width: 824px;
+transform:scale(0.9);
+margin: 0px 70px 0px 70px;  
+}
+
+.chart__image4{
+width: 530px;
+height: 364px;
+grid-column: 1/3;
+grid-row: 4/7; 
+}
+
+.chart__item9{
+grid-column: 1/4;
+grid-row: 7/8; 
+}
+.chart__item8{
+font-size: 20px;
+}
+.chart__item9{
+font-size: 20px;
+}
+.choice{ transform:scale(0.67); -webkit-transform:scale(0.67); -moz-transform:scale(0.67); -ms-transform:scale(0.67); -o-transform:scale(0.67); margin-left: -50px;
+}
+.companies-Background{
+width: 1024px;
+}
+.companies{
+    width:824px;
+}
+.companies__conteiner1{ transform:scale(0.6); -webkit-transform:scale(0.6); -moz-transform:scale(0.6); -ms-transform:scale(0.6); -o-transform:scale(0.6);
+}
+.companies__conteiner{ transform:scale(0.6); -webkit-transform:scale(0.6); -moz-transform:scale(0.6); -ms-transform:scale(0.6); -o-transform:scale(0.6);
+margin: 0px;
+}
+.companies{
+grid-template-columns: repeat(4,170px);
+margin: 100px;
+padding: auto;
+gap: 15px;
+}
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.book_grid{
+width: 824px;
+grid-column: repeat(2,1fr);
+grid-template-rows: auto;
+gap: 0px;
+height: 500px;
+}
+.book_item1{
+grid-column: 1/1;
+grid-row: 1/1;
+}
+.book_item2{
+grid-column: 1/1;
+grid-row: 2/3;
+margin: auto;
+}
+.book_item3{
+grid-column: 1/1;
+grid-row: 3/4;
+margin: 0px;
+}
+.book_item4{ 
+grid-column: 2/3;
+grid-row: 1/3;
+margin-top: 15.5px;
+margin-left: -50px;
+transform:scale(0.7); -webkit-transform:scale(0.7); -moz-transform:scale(0.7); -ms-transform:scale(0.7); -o-transform:scale(0.7); grid-column: 2/3; grid-row: 2/4;  ;
+
+}
+.footer{
+width: 1024px;
+margin-top: -40px;
+}
+.footer__grid{
+width: 1024px;
+grid-template-columns: 1fr 100px 100px 100px 100px;
+padding: 0px;
+padding-top: 25px;
+justify-items: start;
+
+}
+.footer__item1{
+padding-left: 50px;
+}
+
+
+
+}

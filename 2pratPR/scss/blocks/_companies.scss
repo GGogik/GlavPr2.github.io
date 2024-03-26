@@ -1,0 +1,50 @@
+.companies-Background{
+background-color: rgb(235, 235, 235);
+width: 1440px;
+height: 260px;
+margin: auto;
+}
+.companies{
+padding-top: 80px;
+display: grid;
+gap:0px;
+grid-template-columns: repeat(4,1fr);
+margin: auto;
+width: 1110px;
+background-color: rgb(235, 235, 235);
+}
+.companies__image1{
+margin: auto;
+
+}
+.companies__image2{
+    margin: auto;
+    
+    
+    }
+
+    .companies__image3{
+        margin: auto;
+        
+        
+        }
+
+        .companies__image4{
+            margin: auto;
+            
+            
+            }
+.companies__conteiner{
+width: 255px;
+height: 100px;
+border:rgb(148, 148, 148) solid 0.5px;
+display: flex;
+margin: 0 15px;
+
+}
+.companies__conteiner1{
+    width: 255px;
+    height: 100px;
+    border:rgb(148, 148, 148) solid 0.5px;
+    display: flex;
+    }

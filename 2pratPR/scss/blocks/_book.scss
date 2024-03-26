@@ -1,0 +1,37 @@
+.book{
+margin: auto;
+}
+.book_grid{
+padding-top: 60px;
+display: grid;
+margin: auto;
+width: 1110px;
+grid-template-columns: repeat(2,auto);
+gap: 20px 40px;
+}
+.book_item1{
+grid-row: 2/3;
+grid-column: 1/2 ;
+font-size: 40px;
+}
+.book_item2{
+grid-row: 3/4;
+grid-column: 1/2;
+font-size: 18px;
+line-height: 30px;
+}
+.book_item3{
+grid-row: 4/5;
+grid-column: 1/2;
+}
+.book_item4{
+grid-row: 1/6;
+grid-column: 2/4;
+}
+.book-button{
+background-color: white;
+border: 1px solid royalblue;
+color: royalblue;
+padding: 20px 90px;
+font-size: 20px;
+}
